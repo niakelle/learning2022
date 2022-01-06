@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url("../fonts/myriadPro/MYRIADPRO-BOLD.OTF") format("opentype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url("../fonts/myriadPro/MYRIADPRO-REGULAR.OTF") format("opentype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: 	url(../fonts/Gotham-Font/GothamBold.ttf) format('truetype'),
+			url("../fonts/Gotham-Font/Gotham-Bold.otf") format("opentype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: 	url(../fonts/Gotham-Font/GothamMedium.ttf) format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}

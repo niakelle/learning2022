@@ -1,0 +1,150 @@
+.header {
+	background-image: url(../images/001.png);
+	height: 880px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__heading {
+		margin-top: 246px;
+		font-size: 153px;
+		letter-spacing: -8px;
+		color: #f5f5f5;
+		font-weight: bold;
+		font-family: "Gotham";
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&__copyrights {
+		margin-top: 17px;
+		margin-left: 20px;
+		font-size: 24px;
+		letter-spacing: 19px;
+		color: var(--blue);
+		font-weight: 500;
+		font-family: "Gotham";
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&__scroll-down- {
+		&text {
+			color: #f5f5f5;
+		}
+		&button i{
+			font-size: 50px;
+			color: white;
+		}
+	}
+}
+
+.nav {
+	box-sizing: border-box;
+	height: 116px;
+	padding: 30px 210px 0 226px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid rgba(255,255,255,0.35);
+
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		max-width: 876px;
+		width: 100%;
+	}
+}
+
+.logo {
+	align-self: flex-start;
+	display: block;
+	position: relative;
+	width: 67px;
+	height: 67px;
+	background-color: rgba(255,255,255,0.75);
+	z-index: 2;
+
+	&::before {
+		box-sizing: border-box;
+		content: "CS";
+		position: absolute;
+		width: 67px;
+		height: 67px;
+		z-index: 1;
+		top: -8px;
+		left: -12px;
+		background-color: var(--blue);
+		text-decoration: none;
+		color: #f5f5f5;
+		text-align: center;
+		font-family: 'Open Sans';
+		font-weight: 700;
+		font-size: 30px;
+		padding-top: 18px;
+	}
+
+	&__text {
+		font-size: 30px;
+		color: #f5f5f5;
+		font-weight: 700;
+		font-family: "Open Sans";
+		text-align: center;
+	}
+}
+
+.links {
+	display: flex;
+	align-items: center;
+
+	&__link {
+		position: relative;
+		box-sizing: border-box;
+		display: block;
+		padding-top: 13px;
+		padding-left: 20px;
+		padding-bottom: 42px;
+		padding-right: 20px;
+		margin-right: 8px;
+		
+		&:hover {
+			
+			&::after {
+				position: absolute;
+				content: "";
+				bottom: 0px;
+				left: 0px;
+				width: 100%;
+				border-bottom: 5px solid var(--blue);
+			}
+		}
+
+		&:last-of-type{
+			margin-right: 0;
+		}
+	}
+
+	&__a {
+		text-decoration: none;
+		font-size: 20px;
+		color: #ffffff;
+		font-family: "Myriad Pro";
+		text-align: center;
+	}
+}
+
+.social {
+	align-self: flex-start;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 140px;
+
+	& i {
+		font-size: 20px;
+		color: #f5f5f5;
+		letter-spacing: -1px;
+		
+	}
+}
+
+
