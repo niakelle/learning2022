@@ -1,6 +1,6 @@
 .wrapper {
 	width: 600px;
-	marigin: 0 auto;
+	margin: calc(50vh - 50px) auto;
 }
 
 .slider-container {
@@ -11,10 +11,21 @@
 .slider-track {
 	display: flex;
 	background-color: yellow;
+	transition: .3s;
 }
 
-.slider-item {}
+.slider-item {
+	height: 100px;
+}
+
+.slider-item:nth-of-type(3n+1) {background-color: red;}
+.slider-item:nth-of-type(3n+2) {background-color: green;}
+.slider-item:nth-of-type(3n+3) {background-color: blue;}
 
 .slider-buttons {
 	text-align: center;
+}
+
+button:disabled {
+	color: grey;
 }
