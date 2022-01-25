@@ -1,0 +1,20 @@
+.wrapper {
+	width: 600px;
+	marigin: 0 auto;
+}
+
+.slider-container {
+	overflow: hidden;
+	background-color: pink;
+}
+
+.slider-track {
+	display: flex;
+	background-color: yellow;
+}
+
+.slider-item {}
+
+.slider-buttons {
+	text-align: center;
+}
