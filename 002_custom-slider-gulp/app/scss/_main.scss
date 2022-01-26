@@ -1,6 +1,6 @@
 .wrapper {
 	width: 600px;
-	margin: calc(50vh - 50px) auto;
+	margin: calc(50vh - 150px) auto;
 }
 
 .slider-container {
@@ -15,7 +15,7 @@
 }
 
 .slider-item {
-	height: 100px;
+	height: 300px;
 }
 
 .slider-item:nth-of-type(3n+1) {background-color: red;}
