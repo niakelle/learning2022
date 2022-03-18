@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
 
-export default ({
+
+export default {
 	name: 'testComponent',
 	props: {
 		message: String
 	}
-})
+}
 
 </script>
 
