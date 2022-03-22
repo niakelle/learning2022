@@ -1,0 +1,42 @@
+.body {
+	background-color: rgb(238, 238, 238);
+}
+
+.main {
+	padding-top: 15px;
+}
+
+.cats {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 1px;
+	background-color: #fff;
+	border: 1px solid black;
+	max-width: 800px;
+	margin: 0 auto;
+	box-shadow: 5px 5px 25px grey;
+	box-sizing: border-box;
+	padding: 0 100px;
+}
+
+.cats__heading {
+	margin: 20px 0 20px 0;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.cats__image {
+	width: 100%;
+	height: auto;
+	max-width: 600px;
+	max-height: 800px;
+}
+
+.cats__button {
+	margin-top: 10px;
+	padding: 10px 15px;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
