@@ -3,19 +3,22 @@
 
   <testComponent message="something BIG"/>
   <testVFor/>
+  <cats/>
 </template>
 
 <script>
 
 import testComponent from './components/testComponent.vue';
 import testVFor from './components/testVFor.vue';
+import cats from './components/cats.vue';
 
 
 export default {
   name: 'App',
   components: {
     testComponent,
-    testVFor
+    testVFor,
+    cats
   }
 }
 </script>
