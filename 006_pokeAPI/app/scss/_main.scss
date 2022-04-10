@@ -1,0 +1,18 @@
+.content {
+	min-height: 500px;
+	background-color: rgb(222, 222, 222);
+	max-width: 60%;
+	margin: 15px auto 0 auto;
+}
+
+.get-new {
+	display: block;
+	padding: 5px 10px;
+	margin: 50px auto;
+	border: solid rgb(255, 156, 156) 3px;	
+	background-image: linear-gradient(120deg, 
+	rgb(222, 222, 222) 45%, 
+	rgba(0, 0, 0, 0.2) 45%, 
+	rgba(0, 0, 0, 0.3) 50%, 
+	rgb(222, 222, 222) 50%);
+}
